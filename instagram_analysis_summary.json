@@ -1,0 +1,107 @@
+{
+  "analysis_date": "2025-05-27 13:06:36",
+  "total_posts": 446,
+  "avg_engagement": 2327.8071748878924,
+  "viral_posts": 23,
+  "best_model": "Ridge",
+  "best_model_r2": 0.9999998354110219,
+  "top_features": [
+    "Saves",
+    "Likes",
+    "Shares",
+    "Plays",
+    "Likes Rolling Std"
+  ],
+  "causal_insights": {
+    "Has Call to Action": {
+      "ATE": 567.4895319321759,
+      "p_value": 0.009907635158218282,
+      "significant": "True",
+      "treated_mean": 2583.5591836734693,
+      "control_mean": 2016.0696517412935,
+      "treated_count": 245,
+      "control_count": 201
+    },
+    "Is_Viral": {
+      "ATE": 7924.003700277521,
+      "p_value": 3.6789607194389233e-84,
+      "significant": "True",
+      "treated_mean": 9843.173913043478,
+      "control_mean": 1919.1702127659576,
+      "treated_count": 23,
+      "control_count": 423
+    },
+    "Is Weekend": {
+      "ATE": -485.8723145391091,
+      "p_value": 0.0792610111452029,
+      "significant": "False",
+      "treated_mean": 1936.712643678161,
+      "control_mean": 2422.58495821727,
+      "treated_count": 87,
+      "control_count": 359
+    },
+    "Is Peak Hour": {
+      "ATE": 52.22684729064031,
+      "p_value": 0.8919834695375473,
+      "significant": "False",
+      "treated_mean": 2375.35,
+      "control_mean": 2323.1231527093596,
+      "treated_count": 40,
+      "control_count": 406
+    }
+  },
+  "ab_test_results": {
+    "Optimal_Hashtag_Count": {
+      "group_a_mean": 2269.6548223350255,
+      "group_b_mean": 2373.8152610441766,
+      "difference": -104.1604387091511,
+      "p_value": 0.6378258939078978,
+      "effect_size": -0.04491746070518376,
+      "significant": "False",
+      "ci_lower": -540.4521229535103,
+      "ci_upper": 332.1312455352081,
+      "group_a_label": "High Hashtag Count",
+      "group_b_label": "Low Hashtag Count",
+      "recommendation": "Choose B"
+    },
+    "Long_vs_Short_Content": {
+      "group_a_mean": 2120.9774774774774,
+      "group_b_mean": 2532.7901785714284,
+      "difference": -411.8127010939511,
+      "p_value": 0.06046459295398096,
+      "effect_size": -0.178249922838234,
+      "significant": "False",
+      "ci_lower": -840.0161898569534,
+      "ci_upper": 16.39078766905118,
+      "group_a_label": "High Description Length",
+      "group_b_label": "Low Description Length",
+      "recommendation": "Choose B"
+    },
+    "Peak_vs_Off_Hours": {
+      "group_a_mean": 2375.35,
+      "group_b_mean": 2323.1231527093596,
+      "difference": 52.22684729064031,
+      "p_value": 0.8919834695375473,
+      "effect_size": 0.02251680342884558,
+      "significant": "False",
+      "ci_lower": -866.245344110363,
+      "ci_upper": 970.6990386916436,
+      "group_a_label": "Is Peak Hour = Yes",
+      "group_b_label": "Is Peak Hour = No",
+      "recommendation": "Choose A"
+    },
+    "Weekend_vs_Weekday": {
+      "group_a_mean": 1936.712643678161,
+      "group_b_mean": 2422.58495821727,
+      "difference": -485.8723145391091,
+      "p_value": 0.0792610111452029,
+      "effect_size": -0.21020066177039812,
+      "significant": "False",
+      "ci_lower": -891.1804283231043,
+      "ci_upper": -80.56420075511397,
+      "group_a_label": "Is Weekend = Yes",
+      "group_b_label": "Is Weekend = No",
+      "recommendation": "Choose B"
+    }
+  }
+}

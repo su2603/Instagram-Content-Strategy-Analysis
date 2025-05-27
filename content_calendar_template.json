@@ -1,0 +1,58 @@
+{
+  "monday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "motivational"
+  },
+  "tuesday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "educational"
+  },
+  "wednesday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "behind_scenes"
+  },
+  "thursday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "user_generated"
+  },
+  "friday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "entertainment"
+  },
+  "saturday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "lifestyle"
+  },
+  "sunday": {
+    "times": [
+      6,
+      8,
+      7
+    ],
+    "content_type": "inspirational"
+  }
+}
